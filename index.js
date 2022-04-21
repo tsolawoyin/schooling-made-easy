@@ -16,8 +16,8 @@ function Header() {
 
 function Form() {
     return (
-        <form name="messageFromUser" id="form" netlify>
-            <div className="background">
+        <form name="messageFromUser" netlify>
+            <div className="background" id= "form">
                 <div className="container">
                     <div className="screen">
                         <div className="screen-header">
