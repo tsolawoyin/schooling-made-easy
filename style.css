@@ -80,7 +80,10 @@ iframe {
     color: #0B2545;
     transition: ease-in .5s;
 }
-
+span a {
+    color: yellow;
+    /* text-decoration: underline; */
+}
 /* #join-us-btn a {
     color: white;
 } */
