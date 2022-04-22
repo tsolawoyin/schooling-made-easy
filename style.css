@@ -17,6 +17,7 @@
 header {
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 35vh;
 }
 header h1 {
     text-align: center;
@@ -41,6 +42,33 @@ header a:hover {
     color: white;
     transition: all ease-in .2s;
 }
+
+.welcome--section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #0B2545;
+}
+.welcome--section article {
+    font-size: 1.5em;
+    padding: 1.2em;
+    color: white;
+    animation: move 7s forwards;
+}
+.welcome--section p {
+    font-style: italic;
+    margin-top: 1em;
+}
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .about--us {
     padding: 2em 1em;
     margin-top: 1em;
@@ -59,12 +87,12 @@ iframe {
     margin:2em auto;
     display: block;
 }
-#join-us-btn {
+.join-us-btn {
     border: none;
     display: block;
     margin: auto;
 }
-#join-us-btn a {
+.join-us-btn a {
     display: block;
     padding: 1em;
     background: #0B2545;
@@ -75,10 +103,13 @@ iframe {
     font-size: 1.5em;
     cursor: pointer;
 }
-#join-us-btn a:hover {
+.join-us-btn a:hover {
     background-color: white;
     color: #0B2545;
     transition: ease-in .5s;
+}
+.welcome--section button {
+    background-color: white;
 }
 span a {
     color: yellow;
