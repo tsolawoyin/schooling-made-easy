@@ -4,84 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
-    <title>Schooling Made Easy</title>
+    <title>Welcome to Schooling Made Easy Official Website</title>
+    <link rel="shortcut icon" href="./images/5003047.png" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheets/style.css">
     <script src="https://kit.fontawesome.com/2fec614d7c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="root"></div>
-    <form name="messageFromUser" netlify>
-        <div class="background" id="form">
-            <div class="container">
-                <div class="screen">
-                    <div class="screen-header">
-                        <div class="screen-header-left">
-                            <div class="screen-header-button close"></div>
-                            <div class="screen-header-button maximize"></div>
-                            <div class="screen-header-button minimize"></div>
-                        </div>
-                        <div class="screen-header-right">
-                            <div class="screen-header-ellipsis"></div>
-                            <div class="screen-header-ellipsis"></div>
-                            <div class="screen-header-ellipsis"></div>
-                        </div>
-                    </div>
-                    <div class="screen-body">
-                        <div class="screen-body-item left">
-                            <div class="app-title">
-                                <span>CONTACT</span>
-                                <span>US</span>
-                            </div>
-                            <div class="app-contact">CONTACT INFO </div>
-                        </div>
-                        <div class="screen-body-item">
-                            <div class="app-form">
-                                <div class="app-form-group">
-                                    <input type="text" name="name" class="app-form-control" placeholder="NAME" />
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" name="email" type="email" placeholder="EMAIL" />
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" type="text" name="contact" placeholder="CONTACT NO" />
-                                </div>
-                                <div class="app-form-group message">
-                                    <input class="app-form-control" type="text" name="message" placeholder="MESSAGE" />
-                                </div>
-                                <div class="app-form-group buttons">
-    
-                                    <button class="app-form-button" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="credits">
-                    inspired by
-                    <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-                        <svg class="dribbble" viewBox="0 0 200 200">
-                            <g stroke="#ffffff" fill="none">
-                                <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-                                <path
-                                    d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345"
-                                    stroke-width="20"></path>
-                                <path
-                                    d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951"
-                                    stroke-width="20"></path>
-                                <path
-                                    d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103"
-                                    stroke-width="20"></path>
-                            </g>
-                        </svg>
-                        Gururaj
-                    </a>
-                </div> -->
-            </div>
+    <header>
+        <div>
+            <h1><a href="./index.html">Schooling Made Easy Initative</a></h1>
+            <i class="fa-solid fa-bars"></i>
         </div>
-    </form>
-    <script src="index.js" type="text/babel"></script>
+        <nav class="nav--bar">
+            <ul>
+                <li><a href="">Join Our Discord Community</a></li>
+                <li><a href="./all-you-need-to-know-about-our-community.html">All you need to know about our Community</a></li>
+                <li><a href="./our-story.html">Our Story</a></li>
+                <li><a href="./our-mission-and-goals.html">Our mission and Goals</a></li>
+                <li><a href="./about-us.html">Meet our Team</a></li>
+                <li><a href="./technical-documentation.html">Technical Support</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="homepage">
+        <section>
+            <h1>Welcome to our growing learning community.</h1>
+            <a href="#listelement" id="arrow"><i class="fa-solid fa-arrow-down" fa-bounce></i></a>
+        </section>
+        
+            <ul class="list-element" id="listelement">
+                <li><a href="" class="superlinks">Join Our Discord Community</a></li>
+                <li><a href="./all-you-need-to-know-about-our-community.html" class="superlinks">All you need to know about our Community</a></li>
+                <li><a href="./our-story.html" class="superlinks">Our Story</a></li>
+                <li><a href="./our-mission-and-goals.html" class="superlinks">Our mission and Goals</a></li>
+                <li><a href="./about-us.html" class="superlinks">Meet our Team</a></li>
+                <li><a href="./technical-documentation.html" class="superlinks">Technical Support</a></li>
+                <li><a href="./contact-us.html" class="superlinks">Contact Us</a></li>
+            </ul>
+    </main>
+
+    <footer>
+        <p>©Schooling Made Easy Developer team 2022</p> 
+    </footer>
+    <script src="./javascript/index.js"></script>
 </body>
 </html>

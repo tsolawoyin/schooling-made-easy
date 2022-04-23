@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Square+Peg&display=swap');
+:root {
+    font-size: 1em;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+header {
+    background-color: #0B2545;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    height: 6.25em;
+}
+header div {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 10fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 1em;
+}
+
+header h1 {
+    margin-left: .5em;
+    font-size: 1.5em;
+}
+header nav {
+    display: none;
+}
+.fa-bars {
+    margin-right: .7em;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.nav--bar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header a {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+}
+.nav--bar a:hover {
+    background-color: white;
+    color: #0B2545;
+    transition: ease-in .2s;
+}
+
+#homepage section {
+    font-size: 1.5em;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    padding: 0 .5em;
+    background:no-repeat url(../images/hands.jpg) center/cover;
+    color: white;
+    text-shadow: 0 9px 10px #0B2545;
+}
+#arrow {
+    font-size: 5em;
+    display: block;
+    margin: .1em auto;
+    animation: arrowdown 2s  10;
+    cursor: pointer;
+    color: white;
+}
+@keyframes arrowdown {
+    50% {
+        transform: translateY(80px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.list-element {
+    height: 100vh;
+    list-style-type: none;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    padding: 4em 0 0;
+    background: no-repeat url(../images/hands2.jpg) center/cover;
+}
+.list-element a {
+    text-decoration: none;
+    background: #0B2545;
+    color: white;
+    font-size: 1.1em;
+    padding: 1em;
+    border-radius: .5em;
+}
+.list-element a:hover {
+    background-color: white;
+    color: #0B2545;
+    transition: ease-in .2s; 
+}
+footer {
+    min-height: 10vh;
+    background-color: #0B2545;
+    color: white;
+    display: grid;
+    align-content: center;
+}

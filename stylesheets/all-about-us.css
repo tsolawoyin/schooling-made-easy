@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+}
+.info-class {
+    margin: 6.25em 2em;
+}
+.info-class a {
+    text-decoration: none;
+}
+.info-class a:hover {
+    text-decoration: underline;
+}
+.info-class h1 {
+    padding: .5em 0;
+}
+.info-class p {
+    margin-bottom: 2em;
+    line-height: 1.8em;
+}
+.info-class figure img {
+    width: 100%;
+}
+.channel-list{
+    margin: 1em 1em;
+    padding: 0 1em;
+    border-left: 2px solid #0B2545;
+    border-top: 2px solid #0B2545 ;
+    border-radius: 1em;
+}
+article h2 {
+    margin: 1em 0;
+}
+article li {
+    margin: 1em 0;
+    line-height: 23px;
+}
