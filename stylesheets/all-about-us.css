@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
 }
 .info-class {
-    margin: 6.25em 2em;
+    margin: 7.5em 2em 2em;
 }
 .info-class a {
     text-decoration: none;
@@ -11,8 +11,9 @@ ul {
     text-decoration: underline;
 }
 .info-class h1 {
-    padding: .5em 0;
+    margin-bottom: .7em;
 }
+
 .info-class p {
     margin-bottom: 2em;
     line-height: 1.8em;
@@ -30,7 +31,7 @@ ul {
 article h2 {
     margin: 1em 0;
 }
-article li {
+.article li {
     margin: 1em 0;
     line-height: 23px;
 }
