@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
 }
 .info-class {
-    margin: 7.5em 2em 2em;
+    margin: 7.5em .6em 2em;
 }
 .info-class a {
     text-decoration: none;
@@ -18,7 +18,9 @@ ul {
     margin-bottom: 2em;
     line-height: 1.8em;
 }
-
+article ol {
+    padding:0 1.5em 0 ;
+}
 .channel-list{
     margin: 1em 1em;
     padding: 0 1em;
