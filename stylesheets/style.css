@@ -129,3 +129,6 @@ footer {
     display: grid;
     align-content: center;
 }
+.main {
+    min-height: 100vh;
+}

@@ -37,8 +37,8 @@
 
 .snip1515 figcaption {
     width: 100%;
-    background-color: #F2F2F2;
-    color: #555;
+    background-color: rgba(11, 37, 69,0.5);
+    color: white;
     padding: 125px 25px 25px;
     margin-top: -100px;
     display: inline-block;
@@ -57,7 +57,7 @@
 }
 
 .snip1515 h4 {
-    color: #8c8c8c;
+    color: rgba(0, 0, 0, 1);
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -86,4 +86,18 @@
     opacity: 1;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
+}
+/* footer {
+    min-height: 10vh;
+    background-color: #0B2545;
+    color: white;
+    display: grid;
+    align-content: center;
+} */
+#about-us {
+
+    display: grid;
+    justify-content: center;
+    padding: 7.5em 0 0;
+    background: no-repeat fixed url(../images/pexels-fabian-wiktor-994605.jpg) center/cover;
 }
