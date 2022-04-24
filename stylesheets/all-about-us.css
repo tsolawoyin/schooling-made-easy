@@ -18,9 +18,7 @@ ul {
     margin-bottom: 2em;
     line-height: 1.8em;
 }
-.info-class figure img {
-    width: 100%;
-}
+
 .channel-list{
     margin: 1em 1em;
     padding: 0 1em;
@@ -34,4 +32,8 @@ article h2 {
 .article li {
     margin: 1em 0;
     line-height: 23px;
+}
+.list--img {
+    width: 100%;
+    border-radius: 1em;
 }

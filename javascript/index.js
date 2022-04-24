@@ -3,7 +3,7 @@ const navList = document.querySelector(".nav--bar")
 const header = document.querySelector("header")
 
 navBar.addEventListener("click", () => {
-   
+
     if (navList.style.display === "block") {
         navList.style.display = "none";
         header.style.height = "6.25em";

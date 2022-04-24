@@ -113,6 +113,15 @@ header a {
     color: #0B2545;
     transition: ease-in .2s; 
 }
+figure img {
+    width: 100%;
+}
+#homepage--img {
+    padding: 2em;
+    text-align: center;
+    background-color: #0B2545;
+    color: white;
+}
 footer {
     min-height: 10vh;
     background-color: #0B2545;
