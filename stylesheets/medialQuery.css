@@ -1,0 +1,207 @@
+/* 
+DAYO ONLY MEDIA QUERY COULD OVERRIDE THE INITIAL STYLES, THAT IS WHY IS MANY REPITITION  OF CODE IN BOTH THE MEDIAL QUERIES I SET 
+*/
+
+:root {
+    font-size: 1em;
+    --box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), -2px -2px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+@media(min-width: 700px) {
+    a:hover {
+        color: green;
+        text-decoration: none !important;
+        text-transform: uppercase;
+    }
+    #second-header {
+        display: flex;
+        align-content: space-around;
+        justify-content: space-between;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    #second-header a {
+        color: white;
+        display: block;
+        background: rgba(11, 37, 69);
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+    #second-header a:hover {
+        color: rgba(11, 37, 69);
+        background-color: white;
+        font-weight: 900;
+    }
+    #why {
+        margin: 3rem;
+    }
+    #discord {
+        height: calc(100vh -2.25rem);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 1.25rem;
+        margin: 2.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        align-items: center;
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+    }
+    #discord p {
+        margin: 0.09999rem;
+        font-weight: 900;
+    }
+    #discord---image {
+        display: block;
+    }
+    #discord---figure {
+        margin-right: 1rem;
+    }
+    .category-discord {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* grid-auto-rows: 6.25rem; */
+        grid-gap: 1.25rem;
+        margin: 2rem 0;
+    }
+    .category-discord .category-links {
+        font-size: 1.5rem;
+        display: block;
+        margin: 1rem auto;
+    }
+    .category-discord li {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 300px; */
+        margin: 1rem;
+        box-shadow: var(--box-shadow);
+        padding: 1rem;
+        padding-top: 1.5rem;
+        border-radius: 6px;
+    }
+    .links-to-discord-channel {
+        display: flex;
+        width: 80vw;
+        margin: 0.5rem 50% 4rem 5%;
+    }
+    img.img-discord-tutorial {
+        max-width: 600px;
+        margin: 5px auto;
+        display: block;
+        max-height: 600px;
+        box-shadow: var(--box-shadow);
+    }
+    .courses h3 {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    .discord-reasons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* grid-auto-rows: 6.25rem; */
+        grid-gap: 1.25rem;
+        margin: 2rem 0;
+    }
+    .discord-reasons>li {
+        display: flex;
+        flex-direction: column;
+        box-shadow: var(--box-shadow);
+        margin: 1.25rem;
+        padding: 2rem 1rem 1rem 1rem;
+        border-radius: 7px;
+    }
+}
+
+@media(max-width: 700px) {
+    body {
+        padding: 0.5rem 2rem;
+    }
+    #discord {
+        display: flex;
+        background: rgba(0, 0, 0, 0.6);
+        flex-direction: column;
+        margin-top: 1.25rem;
+        padding: 1.25rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 7px;
+    }
+    img.img-discord-tutorial {
+        max-width: 600px;
+        margin: 5px auto;
+        display: block;
+        max-height: 600px;
+        box-shadow: var(--box-shadow);
+    }
+    #second-header {
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+    #second-header a {
+        color: white;
+        display: block;
+        background: rgba(11, 37, 69);
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+        margin-right: 2rem;
+        border-radius: 3px;
+        text-decoration: none;
+        font-size: 0.5rem;
+    }
+    #second-header a:hover {
+        color: rgba(11, 37, 69);
+        background-color: white;
+        font-weight: 900;
+    }
+    .category-discord {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* grid-auto-rows: 6.25rem; */
+        grid-gap: 1.25rem;
+        margin: 2rem 0;
+    }
+    .category-discord .category-links {
+        font-size: 1.5rem;
+        display: block;
+        margin: 1rem auto;
+    }
+    .category-discord li {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 300px; */
+        margin: 1rem;
+        box-shadow: var(--box-shadow);
+        padding: 1rem;
+        padding-top: 1.5rem;
+        border-radius: 6px;
+    }
+    .discord-reasons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* grid-auto-rows: 6.25rem; */
+        grid-gap: 1.25rem;
+        margin: 2rem 0;
+    }
+    .discord-reasons>li {
+        display: flex;
+        flex-direction: column;
+        box-shadow: var(--box-shadow);
+        margin: 1.25rem;
+        padding: 2rem 1rem 1rem 1rem;
+        border-radius: 7px;
+    }
+    h3 {
+        margin-top: 4rem;
+    }
+}
