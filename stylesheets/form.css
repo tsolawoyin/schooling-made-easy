@@ -3,16 +3,16 @@
 
 
 
-.background {
+/* .background {
     display: flex;
     min-height: 100vh;
-}
+} */
 
-.container {
+/* .container {
     flex: 0 1 700px;
     margin: auto;
     padding: 10px;
-}
+} */
 
 .screen {
     position: relative;
@@ -138,8 +138,7 @@
     border: none;
     border-bottom: 1px solid #666;
     color: #ddd;
-    font-size: 14px;
-    text-transform: uppercase; 
+    font-size: 14px; 
     outline: none;
     transition: border-color .2s;
 }
@@ -220,4 +219,11 @@
     .screen-body-item {
         padding: 0;
     }
+}
+#form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
 }
