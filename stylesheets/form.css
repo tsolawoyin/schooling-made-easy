@@ -190,7 +190,7 @@
     margin: 0 5px;
 }
 
-@media screen and (max-width: 520px) {
+/* @media screen and (max-width: 520px) {
     .screen-body {
         flex-direction: column;
     }
@@ -210,7 +210,7 @@
     .app-title:after {
         display: none;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     .screen-body {

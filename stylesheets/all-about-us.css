@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
 }
 .info-class {
-    margin: 7.5em .3em 2em;
+    margin: 7em .3em 2em;
 }
 .info-class a {
     text-decoration: none;
@@ -57,4 +57,14 @@ article h2 {
 .blog--article {
     background: #eee;
     padding: 1em;
+    border-radius: 7px;
+}
+#important {
+    background-color: rgba(11, 37, 69, 1);
+    padding: 1.5em;
+    color: white;
+    margin: 1em auto;
+}
+#important li {
+    margin-bottom: 8px;
 }
