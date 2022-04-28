@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
 }
 .info-class {
-    margin: 7.5em .6em 2em;
+    margin: 7.5em .3em 2em;
 }
 .info-class a {
     text-decoration: none;
@@ -35,6 +35,10 @@ article h2 {
     margin: 1em 0;
     line-height: 23px;
 }
+.update {
+    font-style: italic;
+    font-weight: bolder;
+}
 .list--img {
     width: 100%;
     border-radius: 1em;
@@ -49,4 +53,8 @@ article h2 {
     text-align: center;
     padding: 1em;
     letter-spacing: .3em;
+}
+.blog--article {
+    background: #eee;
+    padding: 1em;
 }
